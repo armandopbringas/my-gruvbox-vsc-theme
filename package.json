@@ -1,0 +1,22 @@
+{
+    "name": "my-gruvbox-theme",
+    "displayName": "my-gruvbox-theme",
+    "description": "my custom gruvbox theme",
+    "version": "0.0.1",
+    "publisher": "armandopbringas",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Another Gruvbox Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Another Gruvbox Theme-color-theme.json"
+            }
+        ]
+    }
+}
