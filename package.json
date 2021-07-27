@@ -4,6 +4,10 @@
     "description": "my custom gruvbox theme",
     "version": "0.0.1",
     "publisher": "armandopbringas",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/armandopbringas/my-gruvbox-vsc-theme"
+    },
     "engines": {
         "vscode": "^1.58.0"
     },
