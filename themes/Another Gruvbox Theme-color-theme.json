@@ -69,7 +69,8 @@
 				"meta.object-literal.key.ts",
 				"punctuation.separator.parameter.ts",
 				"keyword.operator.assignment.tsx",
-				"punctuation.destructuring.ts"
+				"punctuation.destructuring.ts",
+				"punctuation.separator.parameter.tsx"
 			],
 			"settings": {
 				"foreground": "#ebdbb2"
@@ -78,7 +79,22 @@
 		{
 			"name": "Colors",
 			"scope": [
-				"constant.other.color"
+				"constant.other.color",
+				"meta.brace.curly.js",
+				"meta.brace.curly.litobj.js",
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.definition.dictionary.end.json",
+				"punctuation.definition.array.begin.json",
+				"punctuation.definition.array.end.json",
+				"punctuation.section.property-list.begin.bracket.curly.css",
+				"punctuation.section.property-list.end.bracket.curly.css",
+				"punctuation.section.embedded.begin.tsx",
+				"punctuation.section.embedded.end.tsx",
+				"punctuation.definition.block.tsx",
+				"punctuation.definition.parameters.begin.tsx",
+				"punctuation.definition.parameters.end.tsx",
+				"meta.brace.round.tsx",
+				"meta.brace.round.tsx"
 			],
 			"settings": {
 				"foreground": "#ffffff"
@@ -104,6 +120,8 @@
 				"variable.language.this.js",
 				"punctuation.definition.tag.directive.ts",
 				"punctuation.definition.block.sequence.item.yaml",
+				"keyword.control.at-rule.media.css",
+				"punctuation.definition.keyword.css"
 			],
 			"settings": {
 				"foreground": "#ff8800"
@@ -164,6 +182,7 @@
 				"punctuation.quasi.element.end.js",
 				"keyword.control.default.ts",
 				"keyword.operator.spread.js",
+				"keyword.operator.logical.only.media.css"
 			],
 			"settings": {
 				"foreground": "#83a598"
@@ -193,7 +212,9 @@
 				"punctuation.terminator.statement.ts",
 				"punctuation.definition.quasi.end.js",
 				"punctuation.definition.string.begin.yaml",
-				"punctuation.definition.string.end.yaml"
+				"punctuation.definition.string.end.yaml",
+				"punctuation.definition.string.template.begin.tsx",
+				"punctuation.definition.string.template.end.tsx"
 			],
 			"settings": {
 				"foreground": "#b8bb26"
@@ -358,8 +379,6 @@
 				"variable.scss",
 				"support.type.property-name.css",
 				"support.constant.property-value.css",
-				"keyword.control.at-rule.media.css",
-				"punctuation.definition.keyword.css",
 				"invalid.deprecated.entity.other.attribute-name.html",
 				"punctuation.quasi.element.begin.js",
 				"variable.other.property.tsx",
@@ -419,7 +438,9 @@
 				"keyword.control.type.ts",
 				"string.unquoted.js",
 				"storage.type.function.js",
-				"keyword.operator.arithmetic.js"
+				"keyword.operator.arithmetic.js",
+				"punctuation.definition.template-expression.begin.tsx",
+				"punctuation.definition.template-expression.end.tsx"
 			],
 			"settings": {
 				"foreground": "#8ec07c"
